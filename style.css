@@ -1,0 +1,59 @@
+header{
+    text-align: center;
+    word-spacing: 4em;
+    background-color: lightblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+a.no-underline{
+    text-decoration: none;
+}
+
+body{
+    background-color: grey;
+}
+
+section{
+    text-align: left;
+}
+
+section .Aboutme{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding: 50%
+}
+
+.aboutme img{
+   float: left;
+
+}
+
+.aboutme p{
+
+    max-width: 80%;
+    top: 50%;
+    text-align: center;
+    font-size: 150%;
+    padding: 10%;
+    overflow: auto;
+    flex-grow: inherit;
+    margin: auto;
+}
+
+
+.special {
+    padding: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+
+  .AyaanVideo video {
+
+    padding-right: 500px;
+
+  }
